@@ -1,0 +1,13 @@
+-- //SCHEMA 
+
+CREATE DATABASE burguerApp_db;
+USE burgerApp_db;
+
+CREATE TABLE burgers
+(
+	id INT NOT NULL AUTO_INCREMENT,
+	description VARCHAR(250) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	date_eaten TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (id)
+);
