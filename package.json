@@ -1,31 +1,32 @@
 {
   "name": "burguer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Burger App using Handlebars, express, orm and MySql",
   "main": "server.js",
- 
-  "dependencies": {
-    "body-parser": "^1.14.2",
-    "express": "^4.13.3",
-    "express-handlebars": "^2.0.1",
-    "method-override": "^2.3.5",
-    "mysql": "^2.10.2"
-  },
-  "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
-  },
-  "scripts": {
+   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "git+https://github.com/elsagomez/burguer.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/elsagomez/burguer/issues"
   },
-  "homepage": "https://github.com/elsagomez/burguer#readme"
+  "homepage": "https://github.com/elsagomez/burguer#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
 }
+
+
+ 

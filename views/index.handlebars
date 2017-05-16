@@ -44,7 +44,7 @@
 	<h3 class="text-muted">Eaten Burgers</h3>
 	<ul>
 		{{#each burgers}}
-			{{if this.devoured}}
+			{{#if this.devoured}}
 				<li>
 					<h5 class="text-muted">{{this.id}}. {{this.description}}</h5>
 				</li>
